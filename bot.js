@@ -9,7 +9,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.author.username == 'Adam Higgs') {
+  if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
   }
 });
