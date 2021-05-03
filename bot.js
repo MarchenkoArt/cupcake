@@ -11,6 +11,7 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
+    message.channel.send('@Жру по ночам#4711' + ' 🍌');
   }
 });
 
