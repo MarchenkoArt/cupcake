@@ -14,8 +14,5 @@ client.on('message', msg => {
   }
 });
 
-  if (msg.content === '>drop_warn') {
-    msg.send('pong');
-  }
 
 client.login(process.env.BOT_TOKEN);
