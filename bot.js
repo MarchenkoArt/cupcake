@@ -12,7 +12,7 @@ client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
   }
-  else if (msg.author.username == 'slavon') {
+  else if (msg.author.username == 'sla.von') {
     msg.reply('Не пиши сюда больше, проказник!!!');
   }
 });
