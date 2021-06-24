@@ -12,7 +12,11 @@ client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
   }
+  else if (msg.author.username == 'slavon') {
+    msg.react('🍆');
+    msg.react('🔙');
+    msg.react('🏳️‍🌈');
+  }
 });
-
 
 client.login(process.env.BOT_TOKEN);
