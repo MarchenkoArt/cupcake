@@ -13,9 +13,7 @@ client.on('message', msg => {
     msg.react('🍌');
   }
   else if (msg.author.username == 'slavon') {
-    msg.react('🍆');
-    msg.react('🔙');
-    msg.react('🏳️‍🌈');
+    msg.reply('Не пиши сюда больш!');
   }
 });
 
