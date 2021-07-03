@@ -15,15 +15,17 @@ client.on('message', msg => {
   else if (msg.author.username == 'sla.von') {
     msg.send('🍅 <@254148566854008833>');
   }
- else if (msg.author.username === 'Adam Higgs' || msg.author.username === 'MacGroundhog' && msg.content === '!pomidor') {
-    msg.send('Ща закидаем этого засранца гнилыми помидорами!');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
-    msg.send('🍅 <@254148566854008833>');
+ else if (msg.author.username === 'Adam Higgs' || msg.author.username === 'MacGroundhog') {
+    if (msg.content === '!pomidor'){
+     msg.send('Ща закидаем этого засранца гнилыми помидорами!');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+     msg.send('🍅 <@254148566854008833>');
+    }
   }
 });
 
