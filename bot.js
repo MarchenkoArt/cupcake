@@ -11,9 +11,20 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
+    msg.channel.send('<@254148566854008833>');
   }
   else if (msg.author.username == 'sla.von') {
-    msg.reply('Не пиши сюда больше, проказник!!!');
+    msg.channel.send('🍅 <@254148566854008833>');
+  }
+ else if (msg.author.username == 'Adam Higgs' || msg.author.username == 'MacGroundhog' && msg.content == '!pomidor') {
+    msg.channel.send('Ща закидаем этого засранца гнилыми помидорами!');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
+    msg.channel.send('🍅 <@254148566854008833>');
   }
 });
 
