@@ -19,7 +19,7 @@ client.on('message', msg => {
     msg.react('🌽');
   }
   else if (msg.author.username == 'Белка') {
-    msg.react('🍆');
+    msg.react('863400130610593813');
   }
 if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
