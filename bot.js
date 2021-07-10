@@ -33,7 +33,8 @@ if (msg.content === '!pomidor') {
 
 if (msg.content === '!govno') {
     if (msg.author.username === 'MacGroundhog'
-        || msg.author.username === 'Adam Higgs'){
+        || msg.author.username === 'Adam Higgs'
+       || msg.author.username === 'slavon'){
      msg.channel.send('Надеваем перчатки и мажем его говном!!!');
     for (let i = 0; i < 5; i++) { 
       msg.channel.send('💩 <@254148566854008833>');
