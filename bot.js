@@ -19,13 +19,19 @@ if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
         || msg.author.username === 'Adam Higgs'){
      msg.channel.send('Ща закидаем этого засранца гнилыми помидорами!');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
-     msg.channel.send('🍅 <@254148566854008833>');
+    for (let i = 0; i < 10; i++) { 
+      msg.channel.send('🍅 <@254148566854008833>');
+    }
+    }
+  }
+
+if (msg.content === '!govno') {
+    if (msg.author.username === 'MacGroundhog'
+        || msg.author.username === 'Adam Higgs'){
+     msg.channel.send('Надеваем перчатки и мажем его говном!!!');
+    for (let i = 0; i < 10; i++) { 
+      msg.channel.send('💩 <@254148566854008833>');
+    }
     }
   }
 });
