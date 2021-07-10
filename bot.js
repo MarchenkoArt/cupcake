@@ -12,8 +12,8 @@ client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
   }
-  else if (msg.author.username == 's/lavon') {
-    msg.react('🍌');
+  else if (msg.author.username == 'slavon') {
+    msg.react('863394774752428072');
   }
 if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
