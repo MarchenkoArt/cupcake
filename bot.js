@@ -15,6 +15,12 @@ client.on('message', msg => {
   else if (msg.author.username == 'slavon') {
     msg.react('863394774752428072');
   }
+  else if (msg.author.username == 'Михалыч') {
+    msg.react('🌽');
+  }
+  else if (msg.author.username == 'Белка') {
+    msg.react('🍆');
+  }
 if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
         || msg.author.username === 'Adam Higgs'){
