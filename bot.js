@@ -23,6 +23,9 @@ client.on('message', msg => {
   }
   else if (msg.author.username == 'Сутулый') {
     msg.react('863402540082528257');
+  }863402971818754068
+  else if (msg.author.username == 'Adam Higgs') {
+    msg.react('863402971818754068');
   }
 if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
