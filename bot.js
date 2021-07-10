@@ -16,7 +16,7 @@ client.on('message', msg => {
     msg.react('863394774752428072');
   }
   else if (msg.author.username == 'Михалыч') {
-    msg.react('🌽');
+    msg.react('863400783344041985');
   }
   else if (msg.author.username == 'Белка') {
     msg.react('863400130610593813');
