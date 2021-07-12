@@ -12,6 +12,7 @@ bot.on('guildMemberAdd', function (member) {
   const channel = guild.channels.cache.get('745641675736481874');
 
   if (!channel) return;
+  
   channel.send(`${member}, такс бутылочку я приготовил!`);
 })
 
