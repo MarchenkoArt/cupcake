@@ -8,6 +8,12 @@ client.on('ready', () => {
   console.log(`Брат, я на месте!`);
 });
 
+bot.on('guildMemberAdd', function (member) {
+  const channel = member.guild.channels.cache.find(ch => ch.name === 'member-log');
+  if (!channel) return;
+  channel.send(`${member}, такс бутылочку я приготовил!`);
+})
+
 client.on('message', msg => {
   if (msg.author.username == 'MacGroundhog') {
     msg.react('🍌');
