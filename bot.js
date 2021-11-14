@@ -36,7 +36,7 @@ client.on('message', msg => {
     msg.react('863402971818754068');
   }
 else if (msg.author.username == 'Фенимор Купер') {
-    msg.react('💵');
+    msg.react('💳');
   }
 
 if (msg.content === '!pomidor') {
