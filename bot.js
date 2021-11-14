@@ -37,6 +37,10 @@ client.on('message', msg => {
   }
 else if (msg.author.username == 'Фенимор Купер') {
     msg.react('863394774752428072');
+    msg.react('🇬');
+    msg.react('🇦');
+    msg.react('🇾');
+    msg.react('🏳️‍🌈');
   }
 
 if (msg.content === '!pomidor') {
