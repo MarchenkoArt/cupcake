@@ -37,7 +37,10 @@ client.on('message', msg => {
   }
 else if (msg.author.username == 'Фенимор Купер') {
     msg.react('💳');
+    msg.react('906157303382806550');
   }
+  
+  
 
 if (msg.content === '!pomidor') {
     if (msg.author.username === 'MacGroundhog'
